@@ -1,6 +1,6 @@
 import React from 'react'
-import PageCard from '../../layout/container/PageCard'
-import Header from '../sides/Header'
+import PageCard from '../../../layout/container/PageCard'
+import Header from '../../sides/Header'
 import DepenseBody from './DepenseBody'
 
 

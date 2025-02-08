@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { FaEye, FaPen, FaTrash } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { FaEye, FaPrint, FaTrash } from 'react-icons/fa'
+import { Link, useParams } from 'react-router-dom'
 
 const ProspectionBody = () => {
         const [data, setData] = useState([])
@@ -15,6 +15,7 @@ const ProspectionBody = () => {
                 fetchData()
         }, [])
 
+        const {} = useParams()
 
         return (
                 <div>
@@ -32,7 +33,7 @@ const ProspectionBody = () => {
                         </div>
                         <div className='shadowCss p-3 rounded-2xl mt-4 flex flex-col gap-5 '>
                                 {data.map((items) => ( 
-                                        <Link key={items.id} className='w-full flex bg-[#f0f8ff] px-2 rounded-2xl'> 
+                                        <Link to= {`${items.id}`} key={items.id} className='w-full flex bg-[#f0f8ff] px-2 rounded-2xl'> 
                                                 <p className='w-[5%]'>{items.id}</p>
                                                 <p className='w-[15%]'>| {items.structure}</p>
                                                 <p className='w-[25%]'>| {items.etat}</p>
@@ -40,7 +41,7 @@ const ProspectionBody = () => {
                                                 <p className='w-[30%]'>| {items.description}</p>
                                                 <p className='flex gap-2 w-[15%]'>
                                                         <button type="button" className='bg-[#808080] w-[60px] h-[30px] text-white flex justify-center items-center hover:bg-black hover:text-white cursor-pointer'><FaEye /></button>
-                                                        <button type="button" className='bg-[#808080] w-[60px] h-[30px] text-white flex justify-center items-center hover:bg-[#FF7F3E] hover:text-white cursor-pointer'><FaPen /></button>
+                                                        <button type="button" className='bg-[#808080] w-[60px] h-[30px] text-white flex justify-center items-center hover:bg-[#FF7F3E] hover:text-white cursor-pointer'><FaPrint /></button>
                                                         <button type="button" className='bg-[#808080] w-[60px] h-[30px] text-white flex justify-center items-center hover:bg-red-500 hover:text-white cursor-pointer'><FaTrash /></button>
                                                 </p>
                                         </Link>
