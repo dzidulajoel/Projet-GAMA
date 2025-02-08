@@ -1,0 +1,109 @@
+{
+        "prospection": [
+                {
+                        "id": 1,
+                        "structure": "Entreprise A",
+                        "description": "Fournisseur de solutions logicielles",
+                        "date": "2024-07-29",
+                        "etat": "Premier contact",
+                        "numero_structure": "01 23 45 67 89",
+                        "email": "contact@entreprisea.com",
+                        "personne_rencontree": "Jean Dupont"
+                },
+                {
+                        "id": 2,
+                        "structure": "Entreprise B",
+                        "description": "Agence de marketing digital",
+                        "date": "2024-07-28",
+                        "etat": "Prospection en cours",
+                        "numero_structure": "02 34 56 78 90",
+                        "email": "info@entrepriseb.com",
+                        "personne_rencontree": "Sophie Martin"
+                },
+                {
+                        "id": 3,
+                        "structure": "Entreprise C",
+                        "description": "Fabricant de produits électroniques",
+                        "date": "2024-07-27",
+                        "etat": "Rendez-vous téléphonique prévu",
+                        "numero_structure": "03 45 67 89 01",
+                        "email": "contact@entreprisec.com",
+                        "personne_rencontree": "Pierre Garcia"
+                },
+                {
+                        "id": 4,
+                        "structure": "Entreprise D",
+                        "description": "Cabinet de conseil en finance",
+                        "date": "2024-07-26",
+                        "etat": "Envoi de proposition commerciale",
+                        "numero_structure": "04 56 78 90 12",
+                        "email": "info@entreprised.com",
+                        "personne_rencontree": "Isabelle Lefevre"
+                },
+                {
+                        "id": 5,
+                        "structure": "Entreprise E",
+                        "description": "Société de services informatiques",
+                        "date": "2024-07-25",
+                        "etat": "Négociation",
+                        "numero_structure": "05 67 89 01 23",
+                        "email": "contact@entreprisee.com",
+                        "personne_rencontree": "David Dubois"
+                },
+                {
+                        "id": 6,
+                        "structure": "Entreprise F",
+                        "description": "Distributeur de produits alimentaires",
+                        "date": "2024-07-24",
+                        "etat": "Relance",
+                        "numero_structure": "06 78 90 12 34",
+                        "email": "info@entreprisef.com",
+                        "personne_rencontree": "Nathalie Durand"
+                },
+                {
+                        "id": 7,
+                        "structure": "Entreprise G",
+                        "description": "Agence de communication",
+                        "date": "2024-07-23",
+                        "etat": "Premier contact",
+                        "numero_structure": "07 89 01 23 45",
+                        "email": "contact@entrepriseg.com",
+                        "personne_rencontree": "Laurent Rousseau"
+                },
+                {
+                        "id": 8,
+                        "structure": "Entreprise H",
+                        "description": "Fabricant de meubles",
+                        "date": "2024-07-22",
+                        "etat": "Prospection abandonnée",
+                        "numero_structure": "08 90 12 34 56",
+                        "email": "info@entrepriseh.com",
+                        "personne_rencontree": "Valérie Gerard"
+                },
+                {
+                        "id": 9,
+                        "structure": "Entreprise I",
+                        "description": "Société de transport",
+                        "date": "2024-07-21",
+                        "etat": "Conclusion",
+                        "numero_structure": "09 01 23 45 67",
+                        "email": "contact@entreprisei.com",
+                        "personne_rencontree": "Philippe Leclerc"
+                },
+                {
+                        "id": 10,
+                        "structure": "Entreprise J",
+                        "description": "Hôtel de luxe",
+                        "date": "2024-07-20",
+                        "etat": "Prospection en cours",
+                        "numero_structure": "10 12 34 56 78",
+                        "email": "info@entreprisej.com",
+                        "personne_rencontree": "Martine Leroy"
+                }
+        ]
+        ,
+
+        "stock":[
+                
+        ]
+}
